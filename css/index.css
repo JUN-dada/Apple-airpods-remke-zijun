@@ -1,0 +1,1068 @@
+body
+{
+    margin: 0;
+    font-family: -apple-system;
+    background: rgb(0,0,0);
+    transition: 1s;
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .Navigation-bar-logo div:nth-child(1)
+    {
+        transition: 1s;
+        font-size: 4vw;
+    }
+
+
+    .Navigation-bar-logo div:nth-child(2)
+    {
+        transition: 1s;
+        display: none;
+    }
+
+    .Navigation-bar-logo div:nth-child(3)
+    {
+        transition: 1s;
+        display: none;
+    }
+
+    .Navigation-bar-logo div:nth-child(4)
+    {
+        transition: 1s;
+        display: none;
+    }
+
+    .Navigation-bar-logo div:nth-child(5)
+    {
+        transition: 1s;
+        display: none;
+    }
+
+    .Navigation-bar-logo div:nth-child(6)
+    {
+        transition: 1s;
+        display: none;
+    }
+
+    .Navigation-bar-logo div:nth-child(7)
+    {
+        transition: 1s;
+        display: none;
+    }
+
+    .Navigation-bar-logo div:nth-child(8)
+    {
+        transition: 1s;
+        display: none;
+    }
+
+    .Navigation-bar-logo div:nth-child(9)
+    {
+        transition: 1s;
+        display: none;
+    }
+
+    .Navigation-bar-logo div:nth-child(10)
+    {
+        transition: 1s;
+        display: none;
+    }
+
+    .Airpodsnav2green span
+    {
+        margin-top: -45%;
+        font-size: 5vw;
+    }
+
+    .a4vide video
+    {
+        width: 500%;
+        height: 100vh;
+        margin-left: -150%;
+    }
+
+    .a3text
+    {
+        font-size: 1vw;
+    }
+
+    .nav6left
+    {
+        width: 100%;
+        height:50vh;
+        transition: 1s;
+    }
+
+    .nav6right
+    {
+        width: 100%;
+        height:50vh;
+        color: rgb(110,110,115);
+        transition: 1s;
+    }
+
+    .nav7
+    {
+        height: 90vh;
+    }
+
+    .nav7video video
+    {
+        width: 250%;
+        height: 110%;
+        margin-left: -75%;
+        transition: 1s;
+        margin-top: -12%;
+    }
+
+    .nav7img img
+    {
+
+        height: 20vh;
+        transition: 1s;
+    }
+
+    .nav8text span
+    {
+        width: 50%;
+        font-weight: 600;
+        width: 100%;
+        height: 10vh;
+        /*display: flex;*/
+        /*align-items: center;*/
+        line-height: 5vh;
+        transition: 1s;
+        font-size: 20vw;
+        transition: 1s;
+    }
+
+    .nav9rightimg img
+    {
+        width: 300%;
+        height: 40vh;
+        overflow: hidden;
+        transition: 1s;
+    }
+
+    .nav10img img
+    {
+        width: 70%;
+        transition: 1s;
+    }
+
+    .n10lastimg img
+    {
+        width: 200%;
+        position: relative;
+        top: 10%;
+        transition: 1s;
+    }
+
+    .nav12img img
+    {
+        width: 80%;
+        margin-left: 7%;
+        transition: 1s;
+    }
+
+    .nav14rightdown img
+    {
+        width: 100%;
+        height: 30vh;
+        transition: 1s;
+    }
+
+    .nav15rightdown img
+    {
+        width: 100%;
+        height: 30vh;
+        transition: 1s;
+    }
+    .nav15img img
+    {
+        width: 100%;
+        height: 20vh;
+    }
+
+
+    .nav18right img
+    {
+        height: 25%;
+        transition: 1s;
+    }
+}
+
+
+
+.Navigation-bar
+{
+
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position:fixed;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+}
+
+.Navigation-bar-logo
+{
+    color: white;
+    width: 80%;
+    height:4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.Navigation-bar-logo div
+{
+    width:10%;
+    height: 5vh;
+    line-height: 4vh;
+    text-align: center;
+
+}
+
+.Airpodsnav
+{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+
+}
+
+.airpodstittle
+{
+    width: 80%;
+    height: 4vh;
+    border-bottom: 0.5px solid white;
+    color: white;
+    line-height: 4vh;
+}
+
+.Airpodsnav2
+{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Airpodsnav2green
+{
+    margin-top: -15%;
+    font-size: 2vw;
+    color: rgb(49, 255, 26);
+    animation: jianchu 2s ;
+    animation-delay: 0.5s;
+
+}
+
+.Airpodsnav2timg
+{
+    position: absolute;
+    z-index: 2;
+    animation: jianchu 2s ;
+    animation-delay: 0.5s;
+}
+
+@keyframes jianchu
+{
+ 0%
+ {
+     opacity: 0;
+     transform: scale(1.2,1.2);
+ }
+
+    100%{
+        opacity: 1;
+        transform: scale(1,1);
+    }
+}
+
+
+.Airpodsnav2text
+{
+    font-size: 12vw;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    animation: jianchu 2s ;
+    animation-delay: 0.5s;
+}
+
+.Airpodsnav3
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Airpodsnav3 div:nth-child(1)
+{
+
+    display: flex;
+    justify-content: center;
+    font-size: 6vw;
+    /*opacity: var(--opacity);*/
+}
+.Airpodsnav3 div:nth-child(1) h1
+{
+    /*noinspection CssUnresolvedCustomProperty*/
+    color: white;
+    white-space: nowrap;
+    font-size: calc(4rem + var(--size) * 1px);
+}
+
+.Airpodsnav4
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.a4vide
+{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.a3text
+{
+    font-weight: 800;
+    margin: 100vh 0;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    line-height: 8vh;
+}
+
+.a3text span
+{
+    transition: 0.1s;
+    font-size: 3.5vh;
+    --opacity:0.3 ;
+    opacity:var(--opacity);
+
+}
+
+.Airpodsnav5
+{
+    width: 100%;
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a5text {
+    width: 80%;
+    font-weight: 600;
+    color: white;
+}
+
+.a6
+{
+    width: 100%;
+    height: 40vh;
+    background: white;
+}
+.nav6
+{
+    width: 100%;
+    height: 50vh;
+}
+
+.nav6left
+{
+    width: 50%;
+    height:50vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    /*border: 0.5px solid white;*/
+    transition: 1s;
+}
+
+.nav6right
+{
+    float: left;
+    width: 50%;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(110,110,115);
+    box-sizing: border-box;
+    /*border: 0.1px solid white;*/
+    transition: 1s;
+
+}
+
+.nav6right span
+{
+    width: 75%;
+    font-weight: 800;
+    font-size: 2vw;
+}
+
+
+.nav7
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: white;*/
+
+
+}
+
+.nav7video
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    /*transform: scale(1.5);*/
+
+}
+
+.nav7video video
+{
+    transition: 1s;
+}
+
+
+.nav7img
+{
+    position: absolute;
+    z-index: 2;
+    height: 30vh;
+    display: flex;
+    transition: 1s;
+}
+
+.nav7img img
+{
+    transition: 1s;
+}
+
+
+.nav8
+{
+    width: 100%;
+    height: 50vh;
+    /*background: white;*/
+    top: 0;
+    position: sticky;
+    transition: 1s;
+    color: white;
+
+}
+
+.nav8text
+{
+    font-weight: 600;
+    width: 100%;
+    height: 50vh;
+    line-height: 7vh;
+    transition: 1s;
+}
+
+.nav8text span
+{
+    transition: 1s;
+}
+
+
+.nav9
+{
+    transition: 1s;
+    backdrop-filter: blur(100.5px );
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    /*background: white;*/
+
+}
+
+.nav9leftbig
+{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.nav9left1
+{
+    width: 100%;
+    height: 50vh;
+    color: white;
+    text-align: center;
+    transition: 1s;
+    box-sizing: border-box;
+    border: 0.5px solid white;
+}
+
+
+.nav9left2
+{
+    color: rgb(110,110,115);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+    box-sizing: border-box;
+    border: 0.5px solid white;
+}
+
+.nav9left2 span
+{
+    font-size: 2vw;
+    transition: 1s;
+}
+
+.nav9right
+{
+    width: 50%;
+    height: 100vh;
+    /*background: blue;*/
+    float: left;
+    transition: 1s;
+    box-sizing: border-box;
+    border: 0.5px solid white;
+    background: black;
+
+}
+
+.nav9righttop
+{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: rgb(110,110,115);
+    background: black;
+    transition: 1s;
+
+}
+
+.nav9righttop span
+{
+    margin-top: 5%;
+    width: 80%;
+    height: 20vh;
+    transition: 1s;
+}
+
+.nav9rightimg
+{
+    width: 100%;
+    height: 79vh;
+    background: black;
+    display: flex;
+    transition: 1s;
+    justify-content: center;
+}
+
+.nav10
+{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background: black;
+}
+
+.nav10text
+{
+    width: 100%;
+    height: 20vh;
+    /*background: blue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.5vw;
+    transition: 1s;
+    text-indent:2em;
+    color: white;
+    transition: 1s;
+}
+
+.nav10img
+{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+.nav10img div:nth-child(5) img
+{
+    margin-top: 50%;
+    transition: 1s;
+}
+
+.nav10img div
+{
+    width: 20%;
+    height:60vh;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.nav11
+{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    transition: 1s;
+}
+
+.nav11left
+{
+    width: 50%;
+    height: 50vh;
+    background: black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 0.5px solid white;
+    transition: 1s;
+}
+
+.nav11left span
+{
+    width: 80%;
+    font-size: 2vw;
+    font-weight: 600;
+    color: rgb(110,110,115);
+    transition: 1s;
+}
+
+.nav11right
+{
+    width: 50%;
+    height: 50vh;
+    background: black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 0.5px solid white;
+    font-size: 2vw;
+    font-weight: 600;
+    color: white;
+    transition: 1s;
+}
+
+
+.nav12
+{
+    width: 100%;
+    height: 80vh;
+   background: black;
+    position: relative;
+    transition: 1s;
+}
+
+.navbig12
+{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.yuan
+{
+    width: 80px;
+    height: 80px;
+    background: greenyellow;
+    border-radius:80px;
+    transition: 1s;
+    transform-style: preserve-3d;
+    transform: skewY(45deg);
+    position: absolute;
+    z-index: 2;
+    margin-left: -50px;
+    animation: updown 1s linear infinite;
+    transition: 1s;
+}
+
+@keyframes updown {
+    0%
+    {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) skewY(45deg);
+    }
+
+    100%
+    {
+        opacity: 0;
+        transform:translateX(-20px)  translateY(-80px) skewY(45deg);
+    }
+}
+
+.nav12img
+{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    transition: 1s;
+}
+
+.nav12img img
+{
+
+}
+
+.nav12text
+{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    font-size: 6vw;
+    color: white;
+    align-items: center;
+    /*background: #2aabd2;*/
+    font-weight: 600;
+}
+
+.nav12text2
+{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    font-size: 1.5vw;
+    color: white;
+    justify-content: center;
+    /*background: #2aabd2;*/
+    font-weight: 600;
+    align-items: center;
+    transition: 1s;
+
+}
+
+.nav12text2 span
+{
+    width: 50%;
+}
+
+.nav13
+{
+    width: 100%;
+    height: 6%;
+    background: black;
+    position: sticky;
+    top: 0;
+}
+
+.nav13text
+{
+    width: 100%;
+    height: 60vh;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: white;
+}
+
+.nav13text span
+{
+        width: 70%;
+        height: 14vh;
+        display: flex;
+        align-items: center;
+}
+
+.nav14
+{
+    width: 100%;
+    height: 100vh;
+    background: #2aabd2;
+    position: relative;
+}
+
+
+.nav14left
+{
+    width: 50%;
+    height: 100vh;
+    background: black;
+    position: relative;
+    float: left;
+}
+
+.nav14top
+{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2.5vw;
+    color: white;
+}
+
+
+.nav14down
+{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2.5vw;
+    color: white;
+}
+
+.nav14right
+{
+    width: 50%;
+    height: 100vh;
+    background: #3c763d;
+    float: left;
+}
+.nav14righttop
+{
+    width: 100%;
+    height: 30vh;
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.nav14rightdown
+{
+    width: 100%;
+    height: 70vh;
+    background:black;
+    transition: 1s;
+}
+
+.nav15
+{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    position: sticky;
+    top: 0;
+}
+
+.nav15text
+{
+    width: 100%;
+    height: 30vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 600;
+    color: white;
+}
+
+.nav15text span
+{
+    width: 60%;
+}
+
+.nav15img
+{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav16
+{
+    width: 100%;
+    height: 100vh;
+    /*background: #2aabd2;*/
+    position: sticky;
+    top:0;
+    /*backdrop-filter: blur(300px);*/
+    transition: 1s;
+    backdrop-filter: blur(300px);
+
+}
+
+
+.nav16left
+{
+    width: 50%;
+    height: 100vh;
+    backdrop-filter: blur(300px);
+    float: left;
+    transition: 1s;
+
+}
+
+.nav16right
+{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    backdrop-filter: blur(300px);
+    transition: 1s;
+    background: black;
+}
+
+.nav15righttop
+{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(300px);
+    transition: 1s;
+}
+
+.nav15righttop span
+{
+    width: 60%;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: white;
+    transition: 1s;
+}
+
+.nav15rightdown
+{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(300px);
+    overflow: hidden;
+    transition: 1s;
+}
+
+.nav17
+{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0f0f0f;
+}
+
+.nav17left
+{
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+.nav17right
+{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.nav17right span
+{
+    width: 60%;
+}
+
+.nav18
+{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background: #0f0f0f;
+    transition: 1s;
+}
+
+.nav18left
+{
+    width: 50%;
+    height: 50vh;
+    float: left;
+    background: rgb(17,17,17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: white;
+    transition: 1s;
+}
+.nav18left span
+{
+    width: 60%;
+    transition: 1s;
+}
+
+.nav18right
+{
+    width: 50%;
+    height: 50vh;
+    float: left;
+    background: rgb(17,17,17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}

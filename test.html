@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  .yuan
+  {
+    margin-top: 20%;
+    margin-left: 40%;
+    width: 200px;
+    height: 200px;
+    background: greenyellow;
+    border-radius: 500px;
+    transition: 1s;
+    transform-style: preserve-3d;
+    transform: skewY(45deg);
+    animation: upanddown 5s linear infinite;
+  }
+  
+  @keyframes upanddown
+  {
+    0%
+    {
+      opacity: 1;
+    transform: translateY(0px) skewY(45deg);
+    }
+
+    20%
+    {
+      opacity: 0.8;
+      transform: translateY(20px) skewY(45deg);
+    }
+
+    40%
+    {
+      opacity: 0.6;
+      transform: translateY(40px) skewY(45deg);
+    }
+
+    60%
+    {
+      opacity: 0.4;
+      transform: translateY(60px) skewY(45deg);
+    }
+
+    80%
+    {
+      opacity: 0.2;
+      transform: translateY(80px) skewY(45deg);
+    }
+
+    100%
+    {
+      opacity: 0;
+      transform: translateY(100px) skewY(45deg);
+    }
+
+  }
+</style>
+<body>
+
+<div class="yuan">
+
+</div>
+</body>
+</html>
